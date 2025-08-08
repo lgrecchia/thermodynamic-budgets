@@ -5,3 +5,15 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - numpy
+  - xarray
+  - matplotlib
+  - netcdf4
+  - cartopy
+  - cmocean
+  - dask
+  - hdf5
+  - pip
+  - pip:
+    - xarray-regrid
+  
