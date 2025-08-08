@@ -16,7 +16,7 @@ project:
     - title: Introduction
       children:
         - file: notebooks/mse_budget.ipynb
-	- file: notebooks/ohc_budget.ipynb
+        - file: notebooks/ohc_budget.ipynb
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
