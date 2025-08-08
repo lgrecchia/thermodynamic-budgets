@@ -1,4 +1,4 @@
-# (Replace_with_your_title) Cookbook
+# Thermodynamic Budgets Cookbook
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
@@ -8,33 +8,33 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook is a step-by-step guide for how to calculate components of the moist static energy and ocean heat content budgets.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook will help you understand the mathematical derivation of thermodynamic budgets, common simplifications of certain terms and how to include boundary conditions. It will also demonstrate how to calculate each term from real data and what the mathematical equations look like from a coding perspective. 
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Lucy Recchia](https://github.com/lgrecchia).
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/ProjectPythia/thermodynamic-budgets/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/thermodynamic-budgets" />
 </a>
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken into two main sections:
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Moist static energy budget 
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+Walkthrough example showing the mathematical derviation of each term and how to calculate this from real data. The moist static energy budget is comprised of horizontal advection, vertical advection, surface fluxes and radiative terms.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Ocean heat content budget 
 
-(Add content for this section, e.g., "Example workflows include ... ")
+ Walkthrough example showing the mathematical derviation of each term and how to calculate this from real data. The ocean heat content budget is comprised of horizontal advection, vertical advection, horizontal diffusion, vertical diffusion, surface fluxes and radiative terms.
 
 ## Running the Notebooks
 
@@ -66,22 +66,20 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/thermodynamic-budgets` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/thermodynamic-budgets.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `thermodynamic-budgets` directory
    ```bash
-   cd cookbook-example
+   cd thermodynamic-budgets
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate thermodynamic-budgets
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash

@@ -1,4 +1,4 @@
-name: cookbook-dev
+name: thermodynamic-budgets
 channels:
   - conda-forge
 dependencies:
